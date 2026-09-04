@@ -229,8 +229,8 @@
           <span class="page-number">${index + 1}</span>
           <div class="page-media">
             ${isVideo
-              ? `<video class="gallery-image" controls playsinline preload="metadata"><source src="img/${filename}" type="video/mp4">Your browser does not support video playback.</video>`
-              : `<img src="img/${filename}" alt="Memory ${index + 1}" class="gallery-image" loading="lazy">`}
+              ? `<video class="gallery-image" controls playsinline preload="metadata"><source src="images/${filename}" type="video/mp4">Your browser does not support video playback.</video>`
+              : `<img src="images/${filename}" alt="Memory ${index + 1}" class="gallery-image" loading="lazy">`}
           </div>
           <span class="page-caption">Tresor & Arlene</span>`;
         return page;
